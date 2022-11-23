@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 run `npm install` to install node modules
 run `npm start` to start
 
+## Expected Behavior
+<img width="756" alt="image" src="https://user-images.githubusercontent.com/59838236/203502670-9f1c8683-29ba-47d4-b984-408331005c92.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
