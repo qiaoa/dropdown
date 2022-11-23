@@ -16,6 +16,7 @@ run `npm run build` to build the app for production to the `build` folder.
 - User can select and deselect menu options all at once.
 - Selected menu option / options are visibile when the dropdown is closed. On text overflow, ellipses are displayed.
 - Arrow icon - points down when menu is expanded, and up when not expanded.
+- Placeholder text
 
 ### Styling Choices
 - Menu options are highlighted on hover.
