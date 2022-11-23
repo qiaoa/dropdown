@@ -1,0 +1,26 @@
+.dropdown-menu {
+    position: absolute;
+    transform: translateY(4px);
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    max-height:200px;
+    background-color: #fff;
+    filter: drop-shadow(0 0.3rem 0.35rem rgba(0, 0, 0, 0.2));
+}
+
+.dropdown-menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu-item:hover {
+    background-color: rgb(240, 240, 240);
+    transition-duration: 0.15s;
+}
+
+.selected {
+    font-weight: 550;
+    background-color: #f0f8ff;
+}

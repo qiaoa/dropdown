@@ -1,0 +1,62 @@
+$border: (
+  thickness: 1px
+);
+
+$color: (
+  blue: #2491eb,
+  gray-medium: #e0e0e0,
+  gray-dark: #444444,
+);
+
+$transition: (
+  easing: ease-out,
+  speed-slow: 250ms,
+  speed-fast: 125ms
+);
+
+
+.dropdown {
+    width: 300px;
+}
+
+.dropdown-container {
+    text-align: left;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 5px;
+
+    border: map-get($border, thickness) solid map-get($color, gray-medium);
+    border-bottom-color: map-get($color, gray-dark);
+    line-height: 1;
+    transition: map-get($transition, speed-fast) border-color map-get($transition, easing);
+    
+    // States
+    &:hover {
+      border-color: map-get($color, gray-dark);
+    }
+}
+  
+.dropdown-select {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    cursor: pointer;
+}
+
+.focused{
+    border-color: map-get($color, blue);
+    outline: map-get($border, thickness) solid map-get($color, blue);
+}
+
+.dropdown-select-text{
+    max-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
