@@ -7,7 +7,7 @@ run `npm install` to install node modules
 run `npm start` to start
 
 ## Expected Behavior
-<img width="756" alt="image" src="https://user-images.githubusercontent.com/59838236/203502670-9f1c8683-29ba-47d4-b984-408331005c92.png">
+<img width="1214" alt="image" src="https://user-images.githubusercontent.com/59838236/203502757-559635d5-8a6d-4b57-ba01-fe1f7a25ead1.png">
 
 ## Available Scripts
 
